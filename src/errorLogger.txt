@@ -1,0 +1,109 @@
+Tue Apr 07 2020 - TypeError: contactNo.match is not a function
+    at Object.newUserValidator.validateContactNo (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Service\Validators\newUserValidator.js:14:19)
+    at Object.regNewUserService.registerNewUserService (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Service\registerUserService.js:10:23)
+    at router.post (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Routes\registerUserRoutes.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:335:12)
+Tue Apr 07 2020 - TypeError: regUserModel.checkcontactNo is not a function
+    at regUserModel.checkEmailId.then.EmailIdStatus (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Service\registerUserService.js:13:37)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Tue Apr 07 2020 - TypeError: contactNo.match is not a function
+    at Object.newUserValidator.validateContactNo (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Service\Validators\newUserValidator.js:14:19)
+    at Object.regNewUserService.registerNewUserService (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Service\registerUserService.js:10:23)
+    at router.post (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Routes\registerUserRoutes.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:335:12)
+Tue Apr 07 2020 - TypeError: regUserModel.checkcontactNo is not a function
+    at regUserModel.checkEmailId.then.EmailIdStatus (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Service\registerUserService.js:13:37)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Tue Apr 07 2020 - TypeError: regUserModel.checkcontactNo is not a function
+    at regUserModel.checkEmailId.then.EmailIdStatus (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Service\registerUserService.js:13:37)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Tue Apr 07 2020 - TypeError: regUserModel.checkcontactNo is not a function
+    at regUserModel.checkEmailId.then.EmailIdStatus (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Service\registerUserService.js:13:37)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Tue Apr 07 2020 - TypeError: regUserModel.checkcontactNo is not a function
+    at regUserModel.checkEmailId.then.EmailIdStatus (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Service\registerUserService.js:13:37)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Tue Apr 07 2020 - TypeError: regUserModel.checkcontactNo is not a function
+    at regUserModel.checkEmailId.then.EmailIdStatus (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Service\registerUserService.js:13:37)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Tue Apr 07 2020 - ReferenceError: number is not defined
+    at Object.newUserValidator.validateContactNo (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Service\Validators\newUserValidator.js:13:29)
+    at Object.regNewUserService.registerNewUserService (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Service\registerUserService.js:10:23)
+    at router.post (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Routes\registerUserRoutes.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\node_modules\express\lib\router\index.js:335:12)
+Tue Apr 07 2020 - ReferenceError: Err is not defined
+    at collection.find.then.data (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Model\RegisterUserModel.js:26:22)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Tue Apr 07 2020 - Error: Email Address is already used!
+    at collection.find.then.data (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Model\RegisterUserModel.js:26:22)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Tue Apr 07 2020 - Error: Email Address is already used!
+    at collection.find.then.data (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Model\RegisterUserModel.js:27:22)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Tue Apr 07 2020 - TypeError: Cannot read property 'generateUserId' of undefined
+    at Object.registerUserModel.registerUser (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Model\RegisterUserModel.js:51:23)
+    at regUserModel.checkcontactNo.then.contactNoStatus (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Service\registerUserService.js:15:41)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Tue Apr 07 2020 - ReferenceError: registerUser is not defined
+    at Object.registerUserModel.registerUser (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Model\RegisterUserModel.js:51:5)
+    at regUserModel.checkcontactNo.then.contactNoStatus (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Service\registerUserService.js:15:41)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Tue Apr 07 2020 - ReferenceError: connection is not defined
+    at Object.registerUserModel.generateUserId (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Model\RegisterUserModel.js:6:5)
+    at Object.registerUserModel.registerUser (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Model\RegisterUserModel.js:51:30)
+    at regUserModel.checkcontactNo.then.contactNoStatus (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Service\registerUserService.js:15:41)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Tue Apr 07 2020 - Error: Email Address is already used!
+    at collection.find.then.data (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Model\RegisterUserModel.js:27:22)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Tue Apr 07 2020 - ReferenceError: idlength is not defined
+    at collection.distinct.then (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Model\RegisterUserModel.js:12:25)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Tue Apr 07 2020 - TypeError: Cannot read property 'Symbol(Symbol.iterator)' of Math.max
+    at collection.distinct.then (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Model\RegisterUserModel.js:14:56)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Tue Apr 07 2020 - TypeError: Cannot read property 'Symbol(Symbol.iterator)' of Math.max
+    at collection.distinct.then (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Model\RegisterUserModel.js:14:56)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Tue Apr 07 2020 - Error: Email Address is already used!
+    at collection.find.then.data (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Model\RegisterUserModel.js:33:22)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Tue Apr 07 2020 - ReferenceError: msg is not defined
+    at regUserModel.registerUser.then.message (C:\Users\venka\OneDrive\Desktop\MyNodeMongoDb\mywebservice\src\Service\registerUserService.js:15:25)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
